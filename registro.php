@@ -105,8 +105,6 @@
             Código Postal: <span>*</span><input type="text" class="form-control" name="cp" id="cp" value="" required><br>
             Direccion: <span>*</span><input type="text" class="form-control" name="dir" id="dir" value="" required><br>
             Telefono: <span >*</span><input type="number" class="form-control" name="tel" id="tel" value=""required><br>
-            <input type = "int" style="display:none;" name = "id_usuario" id = "id_usuario" value=<?php echo $id_usuario;?>>
-            <input type = "text" style="display:none;" name = "correo" id = "correo" value=<?php echo $correo; ?>>
             <br><span></span><br><input type="submit" class="btn btn-default" value="Registrar">
         </div>
         </form>
