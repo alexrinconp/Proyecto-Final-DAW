@@ -94,7 +94,7 @@
     </div>
     </nav>
     <div class="container">
-        <h1>Inserta una Tutoría:</h1>
+        <h1>Que gusto conocerte</h1>
         <form action="nuevo_usuario.php" method="post">
         <div class="form-group">
             Nombre:  <span>*</span><input type="text" class="form-control" name="nombre" id="nombre" value="" required><br>
