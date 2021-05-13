@@ -34,7 +34,7 @@
                  echo "<form method='post' action='landing_page.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit' style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Inicio'>";
+                 echo "<input type='submit' style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Inicio'>";
                  echo "</form>";
           ?>
        </li>
@@ -42,7 +42,7 @@
                  echo "<form method='post' action='matematicas.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit' style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Matemáticas'>";
+                 echo "<input type='submit' style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Matemáticas'>";
                  echo "</form>";
           ?>
        </li>
@@ -50,7 +50,7 @@
                  echo "<form method='post' action='estadistica.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit' style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Estadística'>";
+                 echo "<input type='submit' style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Estadística'>";
                  echo "</form>";
           ?>
        </li>
@@ -58,7 +58,7 @@
                  echo "<form method='post' action='informatica.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit'style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Informática'>";
+                 echo "<input type='submit'style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Informática'>";
                  echo "</form>";
           ?>
        </li>
@@ -66,7 +66,7 @@
                  echo "<form method='post' action='finanzas.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit' style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Finanzas'>";
+                 echo "<input type='submit' style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Finanzas'>";
                  echo "</form>";
           ?>
        </li>
@@ -74,7 +74,7 @@
                  echo "<form method='post' action='ingles.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit' style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Ingles'>";
+                 echo "<input type='submit' style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Ingles'>";
                  echo "</form>";
           ?>
        </li>
@@ -82,7 +82,7 @@
                  echo "<form method='post' action='office.php'>";
                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                 echo "<input type='submit' style='width 100%' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Office'>";
+                 echo "<input type='submit' style='width: auto;' name='producto-submit' id='producto-submit' class = 'btn btn-lg btn-success' value='Office'>";
                  echo "</form>";
           ?>
        </li>
