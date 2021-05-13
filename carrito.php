@@ -132,7 +132,7 @@
 		}
         $id_usuario = mysqli_real_escape_string($link, $_POST['id_usuario']);
         $id_producto = mysqli_real_escape_string($link, $_POST['id_producto']);
-        $sql =  mysqli_query($link, "INSERT INTO carrito (id_usuario, id_producto) VALUES ($id_usuario, $id_producto);");
+        $sql =  mysqli_query($link, "INSERT INTO carrito (id_usuario, id_producto) VALUES ('$id_usuario', '$id_producto');");
         mysqli_close($link);
 
 	?>
