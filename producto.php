@@ -18,6 +18,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $correo = test_input($_POST["correo"]);
           $id_usuario = test_input($_POST["id_usuario"]);
+          $id_producto = test_input($_POST["id_tutoria"]);
         }
         function test_input($data) {
           $data = trim($data);
@@ -154,7 +155,7 @@
                     echo "<span style='text-align: center'><h4>Precio = " . $row[4] . "</h4></span>";
                     echo "<span style='text-align: center'><h4>Cupo = " . $row[5] . "</h4></span>";
                     echo "<form action='carrito.php' method='post'>";
-                    echo "<input type = 'int' style='display:none;' name = 'id_tutoria' id = 'id_tutoria' value=\"".$id_tutoria."\"/>";
+                    echo "<input type = 'int' style='display:none;' name = 'id_tutoria' id = 'id_tutoria' value=\"".$id_producto."\"/>";
                     echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
                     echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
 					echo "<input type='submit' name='producto-submit' id='producto-submit' tabindex='4' class='form-control btn btn-login' value='Comprar'>";
