@@ -10,21 +10,6 @@
     <title>Tutorias SOS</title>
 </head>
 <body>
-    <?php
-        // define variables and set to empty values
-        $correo = "";
-        $id_usuario;
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-          $correo = test_input($_POST["correo"]);
-          $id_usuario = test_input($_POST["id_usuario"]);
-        }
-        function test_input($data) {
-          $data = trim($data);
-          $data = stripslashes($data);
-          $data = htmlspecialchars($data);
-          return $data;
-        }
-    ?>
     <nav class="navbar navbar-inverse">
     <div class="navbar-header">
     <a class="navbar-brand" href="#">Tutorias SOS</a>
