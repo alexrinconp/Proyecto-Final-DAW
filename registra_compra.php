@@ -132,8 +132,6 @@
 		if (mysqli_connect_errno()) {
 			echo "Failed to connect to MySQL: " . mysqli_connect_error();
 		}
-        $id_usuario = mysqli_real_escape_string($link, $_POST['id_usuario']);
-        $id_producto = mysqli_real_escape_string($link, $_POST['id_producto']);
         $fecha = date("Y/m/d");
           $sql =  mysqli_query($link, "INSERT INTO historial (id_producto_compra, id_usuario_compra, fecha_compra) VALUES ('$id_producto', '$id_usuario', '$fecha');");
           $sql2 = mysqli_query($link, "UPDATE productos SET cupo = cupo - 1 WHERE id_productos = '$id_producto';");
