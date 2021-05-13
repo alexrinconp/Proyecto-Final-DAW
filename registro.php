@@ -105,19 +105,10 @@
             Código Postal: <span>*</span><input type="text" class="form-control" name="cp" id="cp" value="" required><br>
             Direccion: <span>*</span><input type="text" class="form-control" name="dir" id="dir" value="" required><br>
             Telefono: <span >*</span><input type="number" class="form-control" name="tel" id="tel" value=""required><br>
-            <br><span></span><br><input type="submit" class="btn btn-default" value="Registrar">
+            <br><span></span><br><input type="submit" class="form-control btn btn-login" value="Registrar">
         </div>
         </form>
     </div>
-    <div class="container-fluid" style="text-align: center;">
-                <?php
-                  echo "<form action='admin.php' method='post'>";
-                  echo "<input type = 'int' style='display:none;' name = 'id_usuario' id = 'id_usuario' value=\"".$id_usuario."\"/>";
-                  echo "<input type = 'text' style='display:none;' name = 'correo' id = 'correo' value=\"".$correo."\"/>";
-                  echo "<input type='submit' name='producto-submit' id='producto-submit' tabindex='4' class='form-control btn btn-login' value='Regresar'>";
-                  echo "</form>";
-                ?>
-    </div><br>
     <div class="container-fluid" style="background-color: black; color: white; text-align: center;">
     <div class="row">
             <div class="col-xs-6 col-sm-4">
